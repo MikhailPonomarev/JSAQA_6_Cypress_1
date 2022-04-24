@@ -1,4 +1,7 @@
 {
-    "retries": 2,
-    "baseUrl": "http://localhost:3000/"
+    "baseUrl": "http://localhost:3000/",
+    "taskTimeout": 30000,
+    "retries": 1,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
 }

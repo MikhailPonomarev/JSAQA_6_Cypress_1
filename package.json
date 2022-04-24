@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint"
+    "eslint": "eslint",
+    "firefox": "npx cypress run --config-file cypress.json --browser firefox",
+    "firefox-headed": "npx cypress run --config-file cypress.json --browser firefox --headed",
+    "chrome-mobile": "npx cypress run --config-file cypress.env.json --browser chrome",
+    "chrome-mobile-headed": "npx cypress run --config-file cypress.env.json --browser chrome --headed"
   },
   "author": "Mikhail Ponomarev",
   "license": "ISC",
